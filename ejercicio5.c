@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-
+//prototipos de funciones
 void pasarValor(int);
 void pasarReferencia(int *);
 
@@ -18,7 +18,7 @@ int main(){
   return 0;
 }
 
-
+//funciones
 void pasarValor(int equis){
   printf("%d\n", equis);
   equis = 128;
