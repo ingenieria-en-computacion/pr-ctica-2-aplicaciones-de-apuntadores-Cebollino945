@@ -17,10 +17,8 @@ int main() {
     int tamaño = sizeof(arr) / sizeof(arr[0]);
     int valorBuscado = 30;
 
-    // Llamar a la función de búsqueda
     int *resultado = buscarElemento(arr, tamaño, valorBuscado);
 
-    // Mostrar el resultado
     if (resultado != NULL) {
         printf("Elemento %d encontrado en la direccion de memoria: %p\n", valorBuscado, resultado);
     } else {
